@@ -7,30 +7,27 @@
 
 **其他语言版本: [English](README.md), [中文](README_zh.md).**
 
-AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://satnaing.dev/blog).
+请看实践：[https://zhujiashun.cn]（现在还没有正式放到服务器上）
 
-This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.
+AstroPaper是一个最小、响应迅速、可访问和SEO友好的Astro博客主题。我们的博客是基于他的模板进行改进的一个个性化更强的模板。我们加入了一些大学生可能更加喜欢的元素，并在我们的博客上应用一些有趣的前端实践，我们都是软件工程专业的学生，我们日常的学习历程和踩坑分享也会在这里发布。
 
 This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README Documentation Section](#-documentation) for more info.
 
-## 🔥 Features
+## 🔥 特征
 
-- [x] type-safe markdown
-- [x] super fast performance
-- [x] accessible (Keyboard/VoiceOver)
-- [x] responsive (mobile ~ desktops)
-- [x] SEO-friendly
-- [x] light & dark mode
-- [x] fuzzy search
-- [x] draft posts & pagination
-- [x] sitemap & rss feed
-- [x] followed best practices
-- [x] highly customizable
-- [x] dynamic OG image generation for blog posts [#15](https://github.com/satnaing/astro-paper/pull/15) ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
+- [x] 类型安全的 Markdown
+- [x] 超快性能
+- [x] 响应式布局
+- [x] SEO友好
+- [x] 明暗模式
+- [x] 模糊搜索
+- [x] 草稿帖子和分页
+- [x] 网站地图和RSS订阅
+- [x] 博客文章的动态 OG 图像生成 [#15](https://github.com/satnaing/astro-paper/pull/15) ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
 
-_Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
+_Note: 我们的模板添加了很多个性化的元素和组件，如果想要遵循最佳实践原则和最大程度的可定制化，请参考原模板：([satnaing.dev](https://github.com/satnaing/satnaing.dev/tree/deployment))_
 
-## ✅ Lighthouse Score
+## ✅ Lighthouse 得分
 
 <p align="center">
   <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fastro-paper.pages.dev%2F&form_factor=desktop">
@@ -38,7 +35,7 @@ _Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver**
   <a>
 </p>
 
-## 🚀 Project Structure
+## 🚀 项目结构
 
 Inside of AstroPaper, you'll see the following folders and files:
 
