@@ -37,7 +37,7 @@ _Note: 我们的模板添加了很多个性化的元素和组件，如果想要�
 
 ## 🚀 项目结构
 
-Inside of AstroPaper, you'll see the following folders and files:
+在AstroPaper内部，您将看到以下文件夹和文件:
 
 ```bash
 /
@@ -74,7 +74,7 @@ All blog posts are stored in `src/content/blog` directory.
 
 ## 📖 Documentation
 
-Documentation can be read in two formats\_ _markdown_ & _blog post_.
+文档有两种方式可供阅读\_ _markdown_ & _blog post_.
 
 - Configuration - [markdown](src/content/blog/how-to-configure-astropaper-theme.md) | [blog post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
 - Add Posts - [markdown](src/content/blog/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
@@ -99,7 +99,7 @@ Documentation can be read in two formats\_ _markdown_ & _blog post_.
 
 ## 👨🏻‍💻 Running Locally
 
-The easiest way to run this project locally is to run the following command in your desired directory.
+在本地运行此项目的最简单方法是在所需目录中运行以下命令。
 
 ```bash
 # npm 6.x
@@ -123,30 +123,32 @@ PUBLIC_GOOGLE_SITE_VERIFICATION=your-google-site-verification-value
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+所有命令都是从项目的根目录、终端运行的：
 
 > **_Note!_** For `Docker` commands we must have it [installed](https://docs.docker.com/engine/install/) in your machine.
 
-| Command                              | Action                                                                                                                           |
-| :----------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| `npm install`                        | Installs dependencies                                                                                                            |
-| `npm run dev`                        | Starts local dev server at `localhost:4321`                                                                                      |
-| `npm run build`                      | Build your production site to `./dist/`                                                                                          |
-| `npm run preview`                    | Preview your build locally, before deploying                                                                                     |
-| `npm run format:check`               | Check code format with Prettier                                                                                                  |
-| `npm run format`                     | Format codes with Prettier                                                                                                       |
-| `npm run sync`                       | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
-| `npm run cz`                         | Commit code changes with commitizen                                                                                              |
-| `npm run lint`                       | Lint with ESLint                                                                                                                 |
-| `docker compose up -d`               | Run AstroPaper on docker, You can access with the same hostname and port informed on `dev` command.                              |
-| `docker compose run app npm install` | You can run any command above into the docker container.                                                                         |
+| Command                              | Action                                                       |
+| :----------------------------------- | :----------------------------------------------------------- |
+| `npm install`                        | 安装依赖项                                                   |
+| `npm run dev`                        | 启动本地开发服务器 `localhost:4321`                          |
+| `npm run build`                      | 建立您的生产站点到目录 `./dist/`                             |
+| `npm run preview`                    | 在部署之前在本地预览生成                                     |
+| `npm run format:check`               | 使用 Prettier 检查代码格式                                   |
+| `npm run format`                     | 使用 Prettier 格式化代码                                     |
+| `npm run sync`                       | 为所有 Astro 模块生成 TypeScript 类型。 [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
+| `npm run cz`                         | 使用 commitizen 提交代码更改                                 |
+| `npm run lint`                       | 使用 ESLint 的 Lint                                          |
+| `docker compose up -d`               | 在 docker 上运行 AstroPaper，您可以使用 `dev` 命令通知的相同主机名和端口进行访问。 |
+| `docker compose run app npm install` | 您可以在 docker 容器中运行上述任何命令。                     |
 
-> **_Warning!_** Windows PowerShell users may need to install the [concurrently package](https://www.npmjs.com/package/concurrently) if they want to [run diagnostics](https://docs.astro.build/en/reference/cli-reference/#astro-check) during development (`astro check --watch & astro dev`). For more info, see [this issue](https://github.com/satnaing/astro-paper/issues/113).
+> **_警告!_** Windows PowerShell users may need to install the [concurrently package](https://www.npmjs.com/package/concurrently) if they want to [run diagnostics](https://docs.astro.build/en/reference/cli-reference/#astro-check) during development (`astro check --watch & astro dev`). For more info, see [this issue](https://github.com/satnaing/astro-paper/issues/113).
 
 ## ✨ Feedback & Suggestions
 
-If you have any suggestions/feedback, you can contact me via [my email](mailto:contact@zhujiashun.cn). Alternatively, feel free to open an issue if you find bugs or want to request new features.
+如果您有任何建议/反馈，可以通过我的[email](mailto:2133361878@qq.com)与我联系。或者，如果您发现错误或想要请求新功能，请随时提出问题。
 
 ---
 
-Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [his theme contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
+模板的使用人和改进人是 [浥青城]([ryan6073 (Jiashun Zhu) (github.com)](https://github.com/ryan6073)):couple_with_heart:[Yeolde]([cYeolde (github.com)](https://github.com/cYeolde))。
+
+最初的模板由 [Sat Naing](https://satnaing.dev/) 👨🏻 💻 和[贡献者](https://github.com/satnaing/astro-paper/graphs/contributors)制作🤍。
