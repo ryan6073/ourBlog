@@ -1,13 +1,13 @@
 # 浥青城和Yeolde的博客 📄
 
-![BlogPaper](public/ourBlog-og.jpg)
+![BlogPaper](public/OurBlog-og.jpg)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white&style=for-the-badge)](https://conventionalcommits.org)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
 
 **Read this in other languages: [English](README.md), [中文](README_zh.md).**
 
-Welcome to visit [ourBlog](yeolde.fun)
+Welcome to visit [ourBlog](https://yeolde.fun)
 
 Astro Paper is a minimal, responsive, accessible, and SEO-friendly Astro blog theme. Our blog is based on his template to improve on a more personalized and more personalized template. We've added some elements that college students may enjoy more, and we've applied some interesting front-end practices on our blog.we are all software engineering students, and we will also share our daily learning experiences and insights here, including the pitfalls we encounter.
 
@@ -30,10 +30,10 @@ _Note: Our template adds a lot of personalization elements and components, if yo
 
 ## ✅ Lighthouse Score
 
-<p align="center">
+<p >
   <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fastro-paper.pages.dev%2F&form_factor=desktop">
     <img width="710" alt="AstroPaper Lighthouse Score" src="AstroPaper-lighthouse-score.svg">
-  <a>
+  </a>
 </p>
 
 
