@@ -121,19 +121,19 @@ PUBLIC_GOOGLE_SITE_VERIFICATION=your-google-site-verification-value
 
 > **_注意!_** 对于 `Docker` 命令，我们必须将其[安装](https://docs.docker.com/engine/install/)在您的计算机中。
 
-| Command                              | Action                                                       |
-| :----------------------------------- | :----------------------------------------------------------- |
-| `npm install`                        | 安装依赖项                                                   |
-| `npm run dev`                        | 启动本地开发服务器 `localhost:4321`                          |
-| `npm run build`                      | 建立您的生产站点到目录 `./dist/`                             |
-| `npm run preview`                    | 在部署之前在本地预览生成                                     |
-| `npm run format:check`               | 使用 Prettier 检查代码格式                                   |
-| `npm run format`                     | 使用 Prettier 格式化代码                                     |
+| Command                              | Action                                                                                                       |
+|:-------------------------------------|:-------------------------------------------------------------------------------------------------------------|
+| `npm install`                        | 安装依赖项                                                                                                        |
+| `npm run dev`                        | 启动本地开发服务器 `localhost:4321`                                                                                   |
+| `npm run build`                      | 建立您的生产站点到目录 `./dist/`                                                                                        |
+| `npm run preview`                    | 在部署之前在本地预览生成                                                                                                 |
+| `npm run format:check`               | 使用 Prettier 检查代码格式                                                                                           |
+| `npm run format`                     | 使用 Prettier 格式化代码                                                                                            |
 | `npm run sync`                       | 为所有 Astro 模块生成 TypeScript 类型。 [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
-| `npm run cz`                         | 使用 commitizen 提交代码更改                                 |
-| `npm run lint`                       | 使用 ESLint 的 Lint                                          |
-| `docker compose up -d`               | 在 docker 上运行 AstroPaper，您可以使用 `dev` 命令通知的相同主机名和端口进行访问。 |
-| `docker compose run app npm install` | 您可以在 docker 容器中运行上述任何命令。                     |
+| `npm run cz`                         | 使用 commitizen 提交代码更改                                                                                         |
+| `npm run lint`                       | 使用 ESLint 的 Lint                                                                                             |
+| `docker compose up -d`               | 在 docker 上运行 AstroPaper，您可以使用 `dev` 命令通知的相同主机名和端口进行访问。                                                       |
+| `docker compose run app npm install` | 您可以在 docker 容器中运行上述任何命令。                                                                                     |
 
 > **_警告!_** 如果 Windows PowerShell 用户想要在开发过程中[运行诊断](https://docs.astro.build/en/reference/cli-reference/#astro-check)，则可能需要安装[并发包](https://www.npmjs.com/package/concurrently)  `astro check --watch & astro dev`。有关详细信息，请参阅[此处](https://github.com/satnaing/astro-paper/issues/113)。
 
