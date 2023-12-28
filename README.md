@@ -1,17 +1,15 @@
 # 浥青城和Yeolde的博客 📄
 
-![AstroPaper](public/astropaper-og.jpg)
+![BlogPaper](public/ourBlog-og.jpg)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white&style=for-the-badge)](https://conventionalcommits.org)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
 
 **Read this in other languages: [English](README.md), [中文](README_zh.md).**
 
-AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://satnaing.dev/blog).
+Welcome to visit [ourBlog](yeolde.fun)
 
-This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README Documentation Section](#-documentation) for more info.
+Astro Paper is a minimal, responsive, accessible, and SEO-friendly Astro blog theme. Our blog is based on his template to improve on a more personalized and more personalized template. We've added some elements that college students may enjoy more, and we've applied some interesting front-end practices on our blog.we are all software engineering students, and we will also share our daily learning experiences and insights here, including the pitfalls we encounter.
 
 ## 🔥 Features
 
@@ -28,7 +26,7 @@ This theme is self-documented \_ which means articles/posts in this theme can al
 - [x] highly customizable
 - [x] dynamic OG image generation for blog posts [#15](https://github.com/satnaing/astro-paper/pull/15) ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
 
-_Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
+_Note: Our template adds a lot of personalization elements and components, if you want to follow the best practice principles and maximum customization, please refer to the original template:([satnaing.dev](https://github.com/satnaing/satnaing.dev/tree/deployment))_
 
 ## ✅ Lighthouse Score
 
@@ -37,6 +35,7 @@ _Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver**
     <img width="710" alt="AstroPaper Lighthouse Score" src="AstroPaper-lighthouse-score.svg">
   <a>
 </p>
+
 
 ## 🚀 Project Structure
 
@@ -79,12 +78,8 @@ All blog posts are stored in `src/content/blog` directory.
 
 Documentation can be read in two formats\_ _markdown_ & _blog post_.
 
-- Configuration - [markdown](src/content/blog/how-to-configure-astropaper-theme.md) | [blog post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
-- Add Posts - [markdown](src/content/blog/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
-- Customize Color Schemes - [markdown](src/content/blog/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
-- Predefined Color Schemes - [markdown](src/content/blog/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
-
-> For AstroPaper v1, check out [this branch](https://github.com/satnaing/astro-paper/tree/astro-paper-v1) and this [live URL](https://astro-paper-v1.astro-paper.pages.dev/)
+- Configuration－[markdown](src/content/blog/astropaper配置主题.md) | [blog post](https://yeolde.fun/posts/astropaper配置主题/)
+- Add Posts - [markdown](src/content/blog/astropaper创建新文章.md) | [blog post](https://yeolde.fun/posts/astropaper创建新文章/)
 
 ## 💻 Tech Stack
 
@@ -97,7 +92,6 @@ Documentation can be read in two formats\_ _markdown_ & _blog post_.
 **Icons** - [Boxicons](https://boxicons.com/) | [Tablers](https://tabler-icons.io/)  
 **Code Formatting** - [Prettier](https://prettier.io/)  
 **Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  
-**Illustration in About Page** - [https://freesvgillustration.com](https://freesvgillustration.com/)  
 **Linting** - [ESLint](https://eslint.org)
 
 ## 👨🏻‍💻 Running Locally
@@ -130,26 +124,28 @@ All commands are run from the root of the project, from a terminal:
 
 > **_Note!_** For `Docker` commands we must have it [installed](https://docs.docker.com/engine/install/) in your machine.
 
-| Command                              | Action                                                                                                                           |
-| :----------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| `npm install`                        | Installs dependencies                                                                                                            |
-| `npm run dev`                        | Starts local dev server at `localhost:4321`                                                                                      |
-| `npm run build`                      | Build your production site to `./dist/`                                                                                          |
-| `npm run preview`                    | Preview your build locally, before deploying                                                                                     |
-| `npm run format:check`               | Check code format with Prettier                                                                                                  |
-| `npm run format`                     | Format codes with Prettier                                                                                                       |
+| Command                              | Action                                                       |
+| :----------------------------------- | :----------------------------------------------------------- |
+| `npm install`                        | Installs dependencies                                        |
+| `npm run dev`                        | Starts local dev server at `localhost:4321`                  |
+| `npm run build`                      | Build your production site to `./dist/`                      |
+| `npm run preview`                    | Preview your build locally, before deploying                 |
+| `npm run format:check`               | Check code format with Prettier                              |
+| `npm run format`                     | Format codes with Prettier                                   |
 | `npm run sync`                       | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
-| `npm run cz`                         | Commit code changes with commitizen                                                                                              |
-| `npm run lint`                       | Lint with ESLint                                                                                                                 |
-| `docker compose up -d`               | Run AstroPaper on docker, You can access with the same hostname and port informed on `dev` command.                              |
-| `docker compose run app npm install` | You can run any command above into the docker container.                                                                         |
+| `npm run cz`                         | Commit code changes with commitizen                          |
+| `npm run lint`                       | Lint with ESLint                                             |
+| `docker compose up -d`               | Run AstroPaper on docker, You can access with the same hostname and port informed on `dev` command. |
+| `docker compose run app npm install` | You can run any command above into the docker container.     |
 
 > **_Warning!_** Windows PowerShell users may need to install the [concurrently package](https://www.npmjs.com/package/concurrently) if they want to [run diagnostics](https://docs.astro.build/en/reference/cli-reference/#astro-check) during development (`astro check --watch & astro dev`). For more info, see [this issue](https://github.com/satnaing/astro-paper/issues/113).
 
 ## ✨ Feedback & Suggestions
 
-If you have any suggestions/feedback, you can contact me via [my email](mailto:contact@zhujiashun.cn). Alternatively, feel free to open an issue if you find bugs or want to request new features.
+If you have any suggestions/feedback, you can contact me via [my email](mailto:2133361878@qq.com). Alternatively, feel free to open an issue if you find bugs or want to request new features.
 
 ---
+
+The template users and improvers are [ryan6073 (Jiashun Zhu) (github.com)](https://github.com/ryan6073)💘[cYeolde (github.com)](https://github.com/cYeolde).
 
 Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [his theme contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
